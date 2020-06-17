@@ -136,18 +136,24 @@ OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration2_Name1=ColumnNameFormat
 Configuration2_Item1=CaptionAsName
-Configuration2_Name2=General
-Configuration2_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
-Configuration2_Name3=GroupOrder
-Configuration2_Item3=
-Configuration2_Name4=VisibleOrder
-Configuration2_Item4=Comment=304|Designator=80|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Supplier 1=75|Supplier Part Number 1=142|Supplier Subtotal per Board 1=100
-Configuration2_Name5=VisibleOrder_Base
-Configuration2_Item5=Comment=304|Designator=80|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Supplier 1=75|Supplier Part Number 1=142|Supplier Subtotal per Board 1=100
-Configuration2_Name6=VisibleOrder_Consolidated
-Configuration2_Item6=Line #=54|Comment=304|Description=562|Designator=80|Quantity=67|TargetPrice=79|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
-Configuration2_Name7=VisibleOrder_Flat
-Configuration2_Item7=Line #=54|Comment=304|Description=562|Designator=80|TargetPrice=79|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration2_Name2=Filter
+Configuration2_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A3400000001000000000008000000446967692D4B657908000000537570706C69657201120800000044006900670069002D004B00650079000000
+Configuration2_Name3=FilterString
+Configuration2_Item3=[Supplier 1] = 'Digi-Key'
+Configuration2_Name4=FilterString_Base
+Configuration2_Item4=[Supplier 1] = 'Digi-Key'
+Configuration2_Name5=General
+Configuration2_Item5=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration2_Name6=GroupOrder
+Configuration2_Item6=
+Configuration2_Name7=VisibleOrder
+Configuration2_Item7=Designator=80|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Supplier Part Number 1=142|Supplier 1=100
+Configuration2_Name8=VisibleOrder_Base
+Configuration2_Item8=Designator=80|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Supplier Part Number 1=142|Supplier 1=100
+Configuration2_Name9=VisibleOrder_Consolidated
+Configuration2_Item9=Line #=54|Comment=72|Description=82|Designator=80|Quantity=67|TargetPrice=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration2_Name10=VisibleOrder_Flat
+Configuration2_Item10=Line #=54|Comment=52|Description=82|Designator=80|TargetPrice=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 OutputType3=PCBDrawing
 OutputName3=Assembly Drawings
 OutputCategory3=Documentation
@@ -214,7 +220,7 @@ OutputFileName3=
 OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
-OpenOutput3=1
+OpenOutput3=0
 OutputFilePath4=C:\git\Segger J-Link Cortex Adapter Board\Project Outputs for Segger J-Link Cortex Adapter Board\Manual Assembly.PDF
 ReleaseManaged4=1
 OutputBasePath4=Project Outputs for Segger J-Link Cortex Adapter Board
@@ -257,7 +263,7 @@ EnableReload1=0
 RelativeOutputPath2=C:\git\Segger J-Link Cortex Adapter Board\Project Outputs for Segger J-Link Cortex Adapter Board\Manual Assembly.PDF
 OpenOutputs2=1
 RelativeOutputPath3=C:\git\Segger J-Link Cortex Adapter Board\Project Outputs for Segger J-Link Cortex Adapter Board\
-OpenOutputs3=1
+OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
 UseOutputName3=0

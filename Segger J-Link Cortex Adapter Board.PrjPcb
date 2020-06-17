@@ -157,33 +157,93 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Free Documents\ReportComponents\Component Cross Reference Report-Segger J-Link Cortex Adapter Board.xlsx
+[Document8]
+DocumentPath=Segger J-Link Cortex Adapter Board OSHPark v1.1.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Segger J-Link Cortex Adapter Board\Design Rule Check - J-Link Cortex with VCOM Adapter.html
+[Document9]
+DocumentPath=JLCPCB.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=OSH Stencils.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document11]
+DocumentPath=Aisler.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Parameter1]
-Name=Version
-Value=v1.0
+Name=ProjAuth
+Value=Andrew Katz
 
 [Parameter2]
-Name=VerDate
-Value=5/31/2020
+Name=ProjGitURL
+Value=https://github.com/aakatz3/J-Link-Cortex-VCOM
 
 [Parameter3]
 Name=ProjShrtName
 Value=J-Link Cortex + VCOM
 
 [Parameter4]
-Name=ProjGitURL
-Value=https://github.com/aakatz3/J-Link-Cortex-VCOM
+Name=VerDate
+Value=6/12/2020
 
 [Parameter5]
-Name=ProjAuth
-Value=Andrew Katz
+Name=Version
+Value=v1.1
 
 [Configuration1]
 Name=Sources
@@ -194,6 +254,42 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_SmartPDF]
+AutoOpenFile=0
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-4
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+SCH_ExpandLogicalToPhysical=0
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=0
 
 [Generic_EDE]
 OutputDir=
@@ -1201,8 +1297,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Electromechanical.DbLib/Switches
-ComponentDesignItemID0=JS202011CQN
-ComponentSymbolReference0=DPDT
+ComponentDesignItemID0=EVP-BB2A9B000
+ComponentSymbolReference0=SPST-MOM-4
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1218,49 +1314,66 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Actuator Height
+ParameterName0=Actuation Force
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Actuator Height
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=Comment
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Component Kind
 ParameterUpdate3=1
-ParameterName4=Electrical Life
+ParameterName4=ComponentLink1Description
 ParameterUpdate4=1
-ParameterName5=Library Reference
+ParameterName5=ComponentLink1URL
 ParameterUpdate5=1
-ParameterName6=Manufacturer
+ParameterName6=ComponentLink2Description
 ParameterUpdate6=1
-ParameterName7=Manufacturer Part Number
+ParameterName7=ComponentLink2URL
 ParameterUpdate7=1
-ParameterName8=Mounting Style
+ParameterName8=ComponentLink4Description
 ParameterUpdate8=1
-ParameterName9=Number of Switches
+ParameterName9=ComponentLink4URL
 ParameterUpdate9=1
-ParameterName10=P/N
+ParameterName10=Description
 ParameterUpdate10=1
-ParameterName11=Rated Current (A)
+ParameterName11=Library Reference
 ParameterUpdate11=1
-ParameterName12=Rated Voltage (V)
+ParameterName12=Manufacturer
 ParameterUpdate12=1
-ParameterName13=Supplier 1
+ParameterName13=Manufacturer P/N
 ParameterUpdate13=1
-ParameterName14=Supplier Part Number 1
+ParameterName14=Mechanical Life
 ParameterUpdate14=1
-ParameterName15=Switch Function
+ParameterName15=Mounting Style
 ParameterUpdate15=1
-ParameterName16=Temperature Range
+ParameterName16=Number of Switches
 ParameterUpdate16=1
-ParameterName17=Throw Configuration
+ParameterName17=P/N
 ParameterUpdate17=1
-ParameterName18=Type
+ParameterName18=Rated Current (A)
 ParameterUpdate18=1
+ParameterName19=Rated Voltage (V)
+ParameterUpdate19=1
+ParameterName20=Supplier 1
+ParameterUpdate20=1
+ParameterName21=Supplier Part Number 1
+ParameterUpdate21=1
+ParameterName22=Switch Function
+ParameterUpdate22=1
+ParameterName23=Temperature Range
+ParameterUpdate23=1
+ParameterName24=Throw Configuration
+ParameterUpdate24=1
+ParameterName25=Type
+ParameterUpdate25=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=JS202011CQN
+ModelName0=EVP-BB2A9B000
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=EVP-BB2A9B000 LOW DENSITY
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

@@ -58,7 +58,7 @@ OutputEnabled2_OutputMedium3=2
 OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=KeepLeadingAndTrailingZeroes
 
 [PublishSettings]
 OutputFilePath2=
@@ -148,10 +148,10 @@ AddToProject3=1
 TimestampFolder3=0
 UseOutputName3=0
 OpenODBOutput3=0
-OpenGerberOutput3=0
-OpenNCDrillOutput3=0
+OpenGerberOutput3=1
+OpenNCDrillOutput3=1
 OpenIPCOutput3=0
-EnableReload3=0
+EnableReload3=1
 RelativeOutputPath4=
 OpenOutputs4=1
 
